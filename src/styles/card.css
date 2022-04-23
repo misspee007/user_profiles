@@ -1,0 +1,20 @@
+
+.btm-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.desc{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: .8rem;
+  line-height: 2rem;
+}
+
+.desc strong{
+  font-weight: 600;
+}
+.desc p{
+  font-weight: 300;
+}
