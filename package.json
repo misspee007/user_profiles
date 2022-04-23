@@ -1,13 +1,17 @@
 {
-  "name": "react_task4_profiles",
+  "name": "user_profiles",
+  "homepage": "https://misspee007.github.io/user_profiles/",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
